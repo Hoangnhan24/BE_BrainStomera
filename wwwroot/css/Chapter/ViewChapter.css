@@ -1,7 +1,6 @@
 /* Gradient Header */
 .gradient-header {
-    background: linear-gradient(to right,var(--main-color),
-        var(--secondary-color));
+    background: linear-gradient(to right,var(--main-color), var(--secondary-color));
     font-weight: bold;
 }
 
@@ -22,12 +21,22 @@
 h5 {
     font-weight: bold;
 }
+card-header {
+    color: var(--secondary-color);
+}
 
 /* Manage Lessons button and Edit button styling */
 button.btn {
     border-radius: 5px;
 }
 
+button.btn {
+    width: 120px;
+    border-radius: 5px;
+    z-index: auto; 
+    background-color: var(--main-color); 
+    color: white; 
+}
 button.btn-outline-primary {
     border-radius: 5px;
     padding: 3px 10px;

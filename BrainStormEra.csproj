@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Chapter\ChapterManagement.cshtml" />
     <Content Remove="Views\Login\Register.cshtml" />
   </ItemGroup>
 
@@ -33,19 +32,14 @@
     <Folder Include="Views\Instructor\" />
     <Folder Include="Views\Learner\" />
     <Folder Include="wwwroot\css\Chapter\" />
+    <Folder Include="wwwroot\lib\img\Course\" />
   </ItemGroup>
 
   <ItemGroup>
-    <UpToDateCheckInput Remove="Views\Chapter\ChapterManagement.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Views\Chapter\ChapterManagement.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Login\Register.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Chapter\ChapterManagement.cshtml" />
     <None Include="Views\Register\Register.cshtml" />
   </ItemGroup>
 

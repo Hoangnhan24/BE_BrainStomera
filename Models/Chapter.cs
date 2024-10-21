@@ -1,16 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace BrainStormEra.Models;
 
 public partial class Chapter
 {
+    [Required(ErrorMessage = "Chapter ID is required.")]
     public string ChapterId { get; set; } = null!;
 
     public string? CourseId { get; set; }
 
+    [Required(ErrorMessage = "Chapter title is required.")]
     public string ChapterName { get; set; } = null!;
 
+    [Required(ErrorMessage = "Chapter description is required.")]
     public string? ChapterDescription { get; set; }
 
     public int? ChapterOrder { get; set; }

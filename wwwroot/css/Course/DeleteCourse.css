@@ -1,6 +1,12 @@
+
+body  {
+    padding-top: 0 !important;
+    background-color: var(--white-corlor) !important;
+}
+
 .banner img {
     width: 100%;
-    max-width: 1200px; /* Giới hạn chiều ngang cho phù hợp với laptop */
+    max-width: 1200px; /* Giới hạn chiều ngang cho phù hợp vớ-i laptop */
     height: auto;
 }
 

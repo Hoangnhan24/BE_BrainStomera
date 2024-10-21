@@ -19,7 +19,11 @@ public partial class Notification
 
     public DateTime NotificationCreatedAt { get; set; }
 
+    public string? CreatedBy { get; set; }
+
     public virtual Course? Course { get; set; }
+
+    public virtual Account? CreatedByNavigation { get; set; }
 
     public virtual Account? User { get; set; }
 }
